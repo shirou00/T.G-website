@@ -1,0 +1,69 @@
+.b{
+    background:linear-gradient( rgb(70, 70, 70),grey);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.d1{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(46, 46, 46);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+    font-family: "Kalnia Glaze", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    animation: 9s linear 0s infinite TG;
+
+    
+}
+.d2{
+    margin-top: 8%;
+    margin-left: 4%;
+    display: block;
+    
+}
+.yuwichi,.shihou,.yutori,.tenji,.shibi,.shiba  {
+   width: 234px;
+    height: 234px;
+    border: solid black 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.ch{
+    padding-left: 10px;
+    
+}
+.t{
+    margin-left: 2%;
+}
+.d3,.d4,.d5,.d6,.d7,.d8{
+    display: inline-block; /* Aligns the divs horizontally */
+    vertical-align: top; /* Aligns the top of the divs */
+    width: 48%; /* Adjusts width for alignment and spacing */
+    padding: 1%; /* Adds some padding for spacing */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.A {
+    margin-left: 4%; /* Adjust the left margin to ensure it starts from the beginning of the line */
+    font-size: 24px; /* Adjust font size as needed */
+    margin-top: 20px; /* Adds some space before the heading */}
+.f{
+    font-size: larger;
+    color: rgb(18, 16, 16);
+    background-color: rgb(94, 95, 95);
+}
+
+
+@keyframes TG {
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}}

@@ -1,0 +1,87 @@
+.b {
+    background-image: url(im/d.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.d1 {
+    background: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 66px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.d2 {
+    margin-left: 48%;
+    margin-right: 50%;
+    margin-top: 26%;
+    margin-bottom: 60%;
+}
+
+.b1, .b2 {
+    text-align: center;
+    margin-top: 300px;
+    display: inline-block;
+    border-radius: 5px;
+    height: 70px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: 2px solid azure; /* Example border style */
+    
+}
+
+.b1 {
+    margin-left: 360px;
+}
+
+.b2 {
+    margin-left: 250px;
+    margin-right: 280px;
+}
+.b1:hover{
+    box-shadow: 5px 5px 5px rgb(211, 205, 205);
+    background-color: rgb(135, 132, 132);
+    color: black;
+    cursor: pointer;
+
+}
+.b2:hover{
+    box-shadow: 5px 5px 5px rgb(211, 205, 205);
+    background-color: rgb(135, 132, 132);
+    color: black;
+    cursor: pointer;
+
+
+}
+.b1:active{
+    background-color: rgb(246, 242, 250);
+    opacity: 0.7;
+}
+.b2:active{
+    background-color: rgb(246, 242, 250);
+    opacity: 0.7;
+}
+
+
+@keyframes TG {
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
